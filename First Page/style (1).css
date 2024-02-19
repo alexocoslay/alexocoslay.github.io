@@ -1,0 +1,16 @@
+html {
+    background-color:rgb(202, 186, 202);
+}
+#leaf{
+    position: relative;
+    top: -400px;x;
+    left: 300px;
+    transform: rotate(300deg);
+    
+}
+#leaftext{
+    position: relative;
+    top:-300px;
+    left:500px;
+    transform: rotate(-10deg);
+}
