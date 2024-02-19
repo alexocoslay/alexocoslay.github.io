@@ -9,7 +9,7 @@
 </div>
 <link rel="stylesheet" href="/style (4).css">
 <div id="door">
-    <a href="html1">
+    <a href="index.html">
     <img src="door.png" width="200">
     </a>
 </div>
