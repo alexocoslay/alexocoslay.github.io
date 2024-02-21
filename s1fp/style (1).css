@@ -1,0 +1,52 @@
+html {
+    background-color:rgb(202, 186, 202);
+}
+#skytext{
+    position:absolute;
+    top: 30px;
+    left:300px;
+    font-size: 25;
+    font-family: sans-serif;
+
+}
+#leaf{
+    position: relative;
+    top: -500px;
+    left: 200px;
+    z-index: 0;
+    transform: rotate(300deg);
+}
+#leaf:hover{
+    opacity: 30%;
+    translate: 50px;
+    transition: 0.5s;
+}
+#leaftext{
+    position: relative;
+    top:-300px;
+    left:500px;
+    transform: rotate(-10deg);
+}
+@keyframes rotate {
+    0%, 100% {
+      transform: rotate(0deg);
+    }
+    50% {
+      transform: rotate(2deg);
+    }
+
+  }
+#blackcircle{
+    position: relative;
+    top: -380px;
+    left: 350px;
+    z-index: index 1;
+    opacity: 90%;
+    animation: rotate 2s linear infinite;
+}
+#arrowlink{
+    position: fixed;
+    bottom: 0px;
+    left: 10px;
+    transform: rotate(180deg);
+}
