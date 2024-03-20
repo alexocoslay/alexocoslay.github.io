@@ -1,0 +1,199 @@
+html{
+    background-color: #d2d1d1;
+}
+#wrapper{
+    position: absolute;
+    width: 80vw; 
+    /* height: 20vh; */
+    padding: 20px; 
+    margin-left: 10vw; 
+    background-color: #96adc1; 
+    box-shadow: 2vw 2vw 5vw rgba(235, 225, 225, 0.3);
+    
+} 
+#Text{
+    position: relative;
+    height:auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 5vw;
+    color:rgb(247, 250, 250)
+}
+#Water img, #Fire img, #Earth img, #Air img, #Question img {
+    width: 100%;
+    height: auto;
+}
+#question{
+    position: absolute;
+    height: auto;
+    width: 15vw;
+    top: 80vw;
+    margin-left: 42.5vw;
+    transition: box-shadow 0.3s ease-in-out;
+    box-shadow: 2vw 2vw 5vw rgba(19, 20, 67, 0.3);
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+#questionwrapper{
+    position: absolute;
+    width: 15vw; 
+    top: 98vw;
+    margin-left: 42.5vw;
+    background:radial-gradient(#e4e5e5, #ccccd0, #9d9e9e);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+#questiondescription{
+    position:relative;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2vw;
+    color:rgb(45, 48, 48)
+}
+#question:hover{
+    opacity:0;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);}
+
+#question:hover~#questionwrapper{
+    opacity:0.85;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+#Water{
+    position: absolute;
+    max-width: 100%;
+    height: auto;   
+    width: 30vw;
+    margin-top: 10vw;
+    top: 30vw;
+    margin-left: 10vw;
+    transition: box-shadow 0.3s ease-in-out;
+    box-shadow: 2vw 2vw 6vw rgba(32, 40, 197, 0.3);
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+#waterwrapper{
+    position: absolute;
+    width: 30vw; 
+    top: 70vw;
+    margin-left: 10vw;
+    background:radial-gradient(#4d84a6, #3e92cc, #005aa7);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+#waterdescription{
+    position:relative;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2vw;
+    color:rgb(229, 246, 246)
+}
+/* #Water:hover ~ #Earth {
+    opacity: .5;
+} */
+#water:hover{
+    opacity: 0;
+}
+#water:hover ~ #waterwrapper {
+    opacity:.85;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+#Earth{
+    position: absolute;
+    max-width: 100%; 
+    height: auto;   
+    width: 30vw;     
+    top: 30vw;
+    margin-top: 10vw;
+    margin-left: 60vw;
+    transition: box-shadow 0.3s ease-in-out;
+    box-shadow: 2vw 2vw 5vw rgba(35, 136, 5, 0.3);
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+#earthwrapper{
+    position: absolute;
+    width: 30vw; 
+    top: 70vw;
+    margin-left: 60vw;
+    background:radial-gradient(#86a48f, #54946e, #0a3a08);
+    opacity: 0;
+}
+#earthdescription{
+    position:relative;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2vw;
+    color:rgb(229, 246, 246)
+}
+#Earth:hover{
+    opacity:0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+#Earth:hover~#earthwrapper{
+    opacity:.85;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+#Fire{
+    position: absolute;
+    max-width: 100%; 
+    height: auto;   
+    width: 30vw;   
+    margin-left: 10vw;
+    top:100vw;
+    margin-top: 10vw;
+    transition: box-shadow 0.3s ease-in-out;
+    box-shadow: 2vw 2vw 5vw rgba(193, 6, 6, 0.3);
+    transition: opacity 0.3s ease;
+}
+#firewrapper{
+    position: absolute;
+    width: 30vw; 
+    top: 140vw;
+    margin-left: 10vw;
+    background:radial-gradient(#d1b1b1, #c24848, #6c1010);
+    opacity: 0;
+}
+#firedescription{
+    position:relative;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2vw;
+    color:rgb(255, 255, 255)
+}
+#Fire:hover{
+    opacity:0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+#Fire:hover~#firewrapper{
+    opacity:0.85;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+#air{
+    position: absolute;
+    max-width: 100%; 
+    height: auto;   
+    width: 30vw;  
+    top: 100vw; 
+    margin-top: 10vw;
+    margin-left: 60vw;
+    transition: box-shadow 0.3s ease-in-out;
+    box-shadow: 2vw 2vw 5vw rgba(162, 164, 17, 0.3);
+    transition: opacity 0.3s ease;
+}
+#airwrapper{
+    position: absolute;
+    width: 30vw; 
+    top: 140vw;
+    margin-left: 60vw;
+    background:radial-gradient(#fbf9f9, #eae5ce, #aea486);
+    opacity: 0;
+}
+#airdescription{
+    position:relative;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2vw;
+    color:rgb(12, 9, 9)
+}
+#air:hover{
+    opacity:0;
+    box-shadow: 0 0 10px rgba(148, 49, 49, 0.5);
+}
+#air:hover~#airwrapper{
+    opacity:0.85;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
