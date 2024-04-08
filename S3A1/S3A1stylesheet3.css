@@ -1,0 +1,47 @@
+html{
+    background: linear-gradient(to top, #dcbacc, #b860aa, #994596, #b13889, #df16b0);
+}
+.sparkle {
+    position: absolute;
+    top:80vw;
+    width:2vw;
+    height: 2vw;
+    background-color: #fff;
+    border-radius: 50%;
+    animation: sparkle 1.5s ease-in-out infinite;
+  }
+
+@keyframes sparkle {
+    0% {
+      opacity: 0;
+      transform: translateY(-40px);
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+  }
+#text{
+        position: absolute;
+        font-size: 5vw;
+        margin-left:15vw;
+        top:30vw;
+        font-family: 'Indie Flower', cursive;
+        opacity: 0;
+        animation: fadeInLeft 3s ease forwards;
+        color:azure;
+      }
+      @keyframes fadeInLeft {
+        0% {
+          opacity: 0;
+          transform: translateX(-100%);
+        }
+        100% {
+          opacity: 1;
+          transform: translateX(0);
+        }
+      }
+}
