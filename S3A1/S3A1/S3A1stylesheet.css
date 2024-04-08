@@ -1,94 +1,116 @@
 html{
-    background: linear-gradient(to top, #93c298, #3f8162, #356a4e, #265736, #93c298);
+  background: linear-gradient(to top, #93c298, #3f8162, #356a4e, #265736, #93c298);
 }
 
 .sparkle {
-    position: absolute;
-    top:80vw;
-    width:2vw;
-    height: 2vw;
-    background-color: #fff;
-    border-radius: 50%;
-    animation: sparkle 1.5s ease-in-out infinite;
-  }
+  position: absolute;
+  top:80vw;
+  width:2vw;
+  height: 2vw;
+  background-color: #fff;
+  border-radius: 50%;
+  animation: sparkle 1.5s ease-in-out infinite;
+}
 
 @keyframes sparkle {
-    0% {
-      opacity: 0;
-      transform: translateY(-40px);
-    }
-    50% {
-      opacity: 1;
-    }
-    100% {
-      opacity: 0;
-      transform: translateY(30px);
-    }
-  }
-  
-#question {
-    position: absolute;
-    font-size: 5vw;
-    margin-left:15vw;
-    top:30vw;
-    font-family: 'Indie Flower', cursive;
+  0% {
     opacity: 0;
-    animation: fadeInLeft 3s ease forwards;
-    color:azure;
+    transform: translateY(-40px);
   }
-  @keyframes fadeInLeft {
-    0% {
-      opacity: 0;
-      transform: translateX(-100%);
-    }
-    100% {
-      opacity: 1;
-      transform: translateX(0);
-    }
+  50% {
+    opacity: 1;
   }
-  #yes{
-    position: absolute;
-    font-size: 4vw;
-    margin-left:16vw;
-    top:50vw;
-    font-family: 'Indie Flower', cursive;
+  100% {
     opacity: 0;
-    animation: fadeIn 6s ease forwards;
-    color:rgb(5, 16, 10);
+    transform: translateY(30px);
   }
-  #yes a {
-    text-decoration: none; 
-    color: black; 
-  }
-  #no{
-    position: absolute;
-    font-size: 4vw;
-    margin-left:70vw;
-    top:50vw;
-    animation: fadeIn 6s ease forwards;
-    font-family: 'Indie Flower', cursive;
-    opacity: 0;
-
-    color:rgb(5, 16, 10);
-  }
-  #noresponse{
-    position: absolute;
-    font-size: 4vw;
-    margin-left:70vw;
-    top:60vw;
-    font-family: 'Indie Flower', cursive;
-    opacity: 0;
-    transition: opacity 1s ease-in-out;
-    color:rgb(5, 16, 10);
-  }
-#no:hover ~ #noresponse{
-    opacity: 0.85;
 }
-  @keyframes fadeIn{
-    0% {
-        opacity: 0;
-      }
-      100% {
-        opacity: 1;
-      }
+
+.cursor-sparkle {
+  position: fixed;
+  width: 10px;
+  height: 10px;
+  background-color: #fff;
+  border-radius: 50%;
+  pointer-events: none;
+  opacity: 0.8;
+  animation: cursorSparkleTrail 0.6s forwards;
+}
+
+@keyframes cursorSparkleTrail {
+  from {
+      transform: translate(-50%, -50%) scale(1);
+      opacity: 1;
   }
+  to {
+      transform: translate(-50%, -50%) scale(0);
+      opacity: 0;
+  }
+}
+
+#question {
+  position: absolute;
+  font-size: 5vw;
+  margin-left:15vw;
+  top:30vw;
+  font-family: 'Indie Flower', cursive;
+  opacity: 0;
+  animation: fadeInLeft 3s ease forwards;
+  color:azure;
+}
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+#yes{
+  position: absolute;
+  font-size: 4vw;
+  margin-left:16vw;
+  top:50vw;
+  font-family: 'Indie Flower', cursive;
+  opacity: 0;
+  animation: fadeIn 6s ease forwards;
+  color:rgb(5, 16, 10);
+}
+#yes a {
+  text-decoration: none; 
+  color: black; 
+}
+#no{
+  position: absolute;
+  font-size: 4vw;
+  margin-left:70vw;
+  top:50vw;
+  animation: fadeIn 6s ease forwards;
+  font-family: 'Indie Flower', cursive;
+  opacity: 0;
+
+  color:rgb(5, 16, 10);
+}
+#noresponse{
+  position: absolute;
+  font-size: 4vw;
+  margin-left:70vw;
+  top:60vw;
+  font-family: 'Indie Flower', cursive;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  color:rgb(5, 16, 10);
+}
+#no:hover ~ #noresponse{
+  opacity: 0.85;
+}
+@keyframes fadeIn{
+  0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+}

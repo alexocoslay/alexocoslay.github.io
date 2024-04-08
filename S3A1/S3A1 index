@@ -1,26 +1,39 @@
 <head>
-    <link rel="stylesheet" href="S3A1stylesheet.css">
+  <link rel="stylesheet" href="S3A1stylesheet.css">
 </head>
 <div class="sparkles">
-    <!-- Add multiple sparkles at the top of the page -->
-    <div class="sparkle" style="top: 5%; left: 10%;"></div>
-    <div class="sparkle" style="top: 5%; left: 30%;"></div>
-    <div class="sparkle" style="top: 5%; left: 50%;"></div>
-    <div class="sparkle" style="top: 5%; left: 70%;"></div>
-    <div class="sparkle" style="top: 5%; left: 90%;"></div>
-  </div>
+  <!-- Add multiple sparkles at the top of the page -->
+  <div class="sparkle" style="top: 5%; left: 10%;"></div>
+  <div class="sparkle" style="top: 5%; left: 30%;"></div>
+  <div class="sparkle" style="top: 5%; left: 50%;"></div>
+  <div class="sparkle" style="top: 5%; left: 70%;"></div>
+  <div class="sparkle" style="top: 5%; left: 90%;"></div>
+</div>
 
-  <div id="question">
-    Do you want to become a fairy?
-  </div>
-  <div id="yes">
-    <a href="html2.html">
-        yes
-    </a>
-  </div>
-  <div id="no">
-    no
-  </div>
-  <div id="noresponse">
-    sorry...this was deception. you must become a fairy
-  </div>
+<div id="question">
+  Do you want to become a fairy?
+</div>
+<div id="yes">
+  <a href="html2.html">
+      yes
+  </a>
+</div>
+<div id="no">
+  no
+</div>
+<div id="noresponse">
+  sorry...this was deception. you must become a fairy
+</div>
+<script>
+  document.addEventListener('mousemove', function(e) {
+      var body = document.querySelector('body');
+      var cursorSparkle = document.createElement('div');
+      cursorSparkle.setAttribute('class', 'cursor-sparkle');
+      cursorSparkle.style.left = e.pageX + 'px';
+      cursorSparkle.style.top = e.pageY + 'px';
+      body.appendChild(cursorSparkle);
+      setTimeout(function() {
+          cursorSparkle.remove();
+      }, 600);
+  });
+  </script>
