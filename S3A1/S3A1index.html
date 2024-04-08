@@ -24,3 +24,16 @@
   <div id="noresponse">
     sorry...this was deception. you must become a fairy
   </div>
+  <script>
+    document.addEventListener('mousemove', function(e) {
+        var body = document.querySelector('body');
+        var cursorSparkle = document.createElement('div');
+        cursorSparkle.setAttribute('class', 'cursor-sparkle');
+        cursorSparkle.style.left = e.pageX + 'px';
+        cursorSparkle.style.top = e.pageY + 'px';
+        body.appendChild(cursorSparkle);
+        setTimeout(function() {
+            cursorSparkle.remove();
+        }, 600);
+    });
+    </script>
