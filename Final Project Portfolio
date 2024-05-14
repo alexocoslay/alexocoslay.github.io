@@ -1,0 +1,120 @@
+<head>
+    <link rel="stylesheet" href="style (1).css">
+</head>
+<script src="script.js"></script>
+<div id="textwrapper">
+    <div id="text">
+        Alex's Web Artboretum
+    </div>
+</div>
+<div id="Wildflower">
+    <img src="wildflower.png">
+</div>
+<div id="Section1Assignment1">
+    <div id="S1A1Text">
+        <a href="https://codepen.io/Alexander-OConnor/pen/vYPpMBQ">
+            S1 A 1
+        </a>
+    </div>
+</div>
+<div id="Section1Assignment2">
+    <div id="S1A2Text">
+        <a href="https://codepen.io/Alexander-OConnor/pen/qBvKYZN">
+            S1 A 2
+        </a>
+    </div>
+</div>
+ <div id="Asparagus">
+        <img src="asparagus.png">
+    </div>
+    <div id="Section1Assignment3">
+        <div id="S1A3Text">
+            <a href="https://alexocoslay.github.io/">
+                S1 A 3
+            </a>
+        </div>
+    </div>
+    <div id="Ornamental">
+        <img src="ornamental pear.png">
+    </div>
+<div id="Section2Assignment1">
+    <div id="S2A1Text">
+        <a href="https://alexocoslay.github.io/">
+            S2 A 1
+        </a>
+    </div>
+</div>
+<div id="Section2Assignment1">
+    <div id="S2A1Text">
+        <a href="https://alexocoslay.github.io/">
+            S2 A 1
+        </a>
+    </div>
+</div>
+<div id="Backyard">
+    <img src="backyard.png">
+</div>
+<div id="Section2Assignment2">
+    <div id="S2A2Text">
+        <a href="https://alexocoslay.github.io/s2a2/index.html">
+            S2 A 2
+        </a>
+    </div>
+</div>
+<div id="Buttercup">
+    <img src="yellowbuttercup.png">
+</div>
+<div id="Section2Assignment3">
+    <div id="S2A3Text">
+        <a href="https://editor.p5js.org/alexoco/sketches/mHUKTyBNd">
+            S2 A 3
+        </a>
+    </div>
+</div>
+<div id="tulip">
+    <img src="tulip.png">
+</div>
+<div id="Section3Assignment1">
+    <div id="S3A1Text">
+        <a href="https://alexocoslay.github.io/S3A1/S3A1index.html">
+            S3 A 1
+        </a>
+    </div>
+</div>
+<div id="violet">
+    <img src="violet.png">
+</div>
+<div id="Section3Assignment2">
+    <div id="S3A2Text">
+        <a href="https://elizyj.github.io/s3a2/index.html">
+            S3 A 2
+        </a>
+    </div>
+</div>
+<div id="purple">
+    <img src="purple buttercup.png">
+</div>
+<div id="Section3Assignment3">
+    <div id="S3A3Text">
+        <a href="https://editor.p5js.org/alexoco/sketches/8_e9vzAKgx">
+            S3 A 3
+        </a>
+    </div>
+</div>
+<div id="Sub">
+    <img src="America.png">
+</div>
+<div id="Tree">
+    <img src="Tree.png">
+</div>
+<div id="hawk">
+    <a href="html2.html">
+        <img src="hawk.png">
+    </a>
+</div>
+<div id="Readingswrapper">
+    <div id="readings">
+        Responses to class readings
+    </div>
+</div> 
+

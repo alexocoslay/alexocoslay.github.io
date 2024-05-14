@@ -1,52 +1,342 @@
 html {
-    background-color:rgb(202, 186, 202);
+    background-color:#efe8df;
 }
-#skytext{
-    position:absolute;
-    top: 30px;
-    left:300px;
-    font-size: 25;
-    font-family: sans-serif;
+#textwrapper{
+    font-family: "Roboto Condensed", sans-serif;
+    position: absolute;
+    margin-top: 1vw;
+    width: 80vw; 
+    padding: 20px; 
+    margin-left: 28vw;
+}
+#text{
+    position: relative;
+    height:auto;
+    font-size: 5vw;
+}
 
+#Wildflower{
+    position: absolute;  
+    width: 21vw;
+    margin-top: 15vw;
+    margin-left: 32w;
+    z-index: 2; 
+    opacity: 1;
 }
-#leaf{
-    position: relative;
-    top: -500px;
-    left: 200px;
-    z-index: 0;
-    transform: rotate(300deg);
-}
-#leaf:hover{
-    opacity: 30%;
-    translate: 50px;
-    transition: 0.5s;
-}
-#leaftext{
-    position: relative;
-    top:-300px;
-    left:500px;
-    transform: rotate(-10deg);
-}
-@keyframes rotate {
-    0%, 100% {
-      transform: rotate(0deg);
-    }
-    50% {
-      transform: rotate(2deg);
-    }
 
-  }
-#blackcircle{
+#Wildflower img {
+    max-width: 100%; 
+    height: auto;
+}
+#Section1Assignment1{
+    position: absolute;  
+    width: vw;
+    margin-top: 35vw;
+    margin-left: 2vw;
+    z-index: 2; 
+    opacity: 1;
+    background-color: white;
+    box-shadow: 0 0 10px rgb(228, 7, 173);
+}
+#S1A1Text{
     position: relative;
-    top: -380px;
-    left: 350px;
-    z-index: index 1;
-    opacity: 90%;
-    animation: rotate 2s linear infinite;
+    height:auto;
+    font-size: 2vw;
 }
-#arrowlink{
-    position: fixed;
-    bottom: 0px;
-    left: 10px;
-    transform: rotate(180deg);
+
+#Section1Assignment2{
+    position: absolute;  
+    width: vw;
+    margin-top: 56vw;
+    margin-left: 2vw;
+    z-index: 2; 
+    opacity: 1;
+    background-color: white;
+    box-shadow: 0 0 10px rgb(20, 176, 82);
 }
+#S1A2Text{
+    position: relative;
+    height:auto;
+    font-size: 2vw;
+}
+#Section1Assignment3{
+    position: absolute;  
+    margin-top: 77vw;
+    margin-left: 2vw;
+    z-index: 2; 
+    opacity: 1;
+    box-shadow: 0 0 10px rgb(141, 131, 138);
+    background-color: white; /* Add this line */
+}
+#S1A3Text{
+    position: relative;
+    height:auto;
+    font-size: 2vw;
+}
+#Asparagus{
+    position: absolute;  
+    width: 15vw;
+    margin-top: 35vw;
+    margin-left: 2vw;
+    z-index: 2; 
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+#Asparagus img {
+    max-width: 90%; 
+    height: auto;
+}
+#Ornamental{
+    position: absolute;  
+    width: 15vw;
+    margin-top: 60vw;
+    top: 1vw;
+    margin-left: 2vw;
+    z-index: 2; 
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+#Ornamental img{
+    max-width: 100%; 
+    height: auto; 
+}
+#Section2Assignment1{
+    position: absolute;  
+    margin-top: 97vw;
+    margin-left: 2vw;
+    z-index: 2; 
+    opacity: 1;
+    box-shadow: 0 0 10px rgb(238, 188, 223);
+    background-color: white; /* Add this line */
+}
+#S2A1Text{
+    position: relative;
+    height:auto;
+    font-size: 2vw;
+}
+#Backyard{
+    position: absolute;  
+    width: 20vw;
+    margin-top: 76vw;
+    top: 1vw;
+    z-index: 2; 
+    margin-left: .2vw;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+#backyard img{
+    max-width: 100%; 
+    height: auto; 
+}
+#Section2Assignment2{
+    position: absolute;  
+    margin-top: 36vw;
+    margin-left: 92vw;
+    z-index: 2; 
+    opacity: 1;
+    box-shadow: 0 0 10px rgb(185, 175, 27, 2);
+    background-color: rgb(253, 253, 252); /* Add this line */
+}
+#S2A2Text{
+    position: relative;
+    height:auto;
+    font-size: 2vw;
+}
+#Buttercup{
+    position: absolute;  
+    width: 20vw;
+    margin-top: 15vw;
+    top: 1vw;
+    margin-left: 85vw;
+    z-index: 2; 
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+#Buttercup img{
+    max-width: 90%; 
+    height: auto; 
+}
+#Section2Assignment3{
+    position: absolute;  
+    margin-top: 58vw;
+    margin-left: 92vw;
+    z-index: 2; 
+    opacity: 1;
+    box-shadow: 0 0 10px rgb(191, 12, 39);
+    background-color: white; /* Add this line */
+}
+#S2A3Text{
+    position: relative;
+    height:auto;
+    font-size: 2vw;
+}
+#Tulip{
+    position: absolute;  
+    width: 25vw;
+    margin-top: 35vw;
+    top: 1vw;
+    margin-left: 80vw;
+    z-index: 2; 
+    rotate: -45deg;
+    opacity: 1;
+    transition: opacity 0.3s ease; 
+}
+#Tulip img{
+    max-width: 100%; 
+    height: auto; 
+}
+#Section3Assignment1{
+    position: absolute;  
+    margin-top: 77vw;
+    margin-left: 93vw;
+    z-index: 3; 
+    opacity: 1;
+    box-shadow: 0 0 10px rgba(45, 6, 69, 1);
+    background-color: white; /* Add this line */
+}
+#S3A1Text{
+    position: relative;
+    height:auto;
+    font-size: 2vw;
+}
+#Violet{
+    position: absolute;  
+    width: 25vw;
+    margin-top: 57vw;
+    top: 1vw;
+    margin-left: 78vw;
+    z-index: 2; 
+    opacity: 1;
+    transition: opacity 0.3s ease; 
+}
+#Section3Assignment2{
+    position: absolute;  
+    margin-top: 94vw;
+    margin-left: 92vw;
+    z-index: 3; 
+    opacity: 1;
+    box-shadow: 0 0 10px rgba(164, 5, 113, 0.7);
+    background-color: white; /* Add this line */
+}
+#S3A2Text{
+    position: relative;
+    height:auto;
+    font-size: 2vw;
+}
+#Violet img{
+    max-width: 100%; 
+    height: auto; 
+}
+#purple{
+    position: absolute;  
+    width: 18vw;
+    margin-top: 74vw;
+    top: 1vw;
+    margin-left: 80vw;
+    z-index: 2; 
+    opacity: 1;
+    transition: opacity 0.3s ease; 
+}
+#purple img{
+    max-width: 85%;
+    height: auto;
+}
+#Section3Assignment3{
+    position: absolute;  
+    margin-top: 110vw;
+    margin-left: 66vw;
+    z-index: 3; 
+    opacity: 1;
+    box-shadow: 0 0 10px rgba(201, 197, 5, 0.7);
+    background-color: white; /* Add this line */
+}
+#S3A3Text{
+    position: relative;
+    height:auto;
+    font-size: 2vw;
+}
+#Sub {
+    position: absolute;  
+    width: 18vw;
+    margin-top: 100vw;
+    top: 1vw;
+    margin-left: 43vw;
+    rotate: 35deg;
+    z-index: 2; 
+    opacity: 1;
+    transition: opacity 0.3s ease; 
+}
+#Sub img{
+    max-width: 100%;
+    height: auto;
+}
+#Tree{
+    position: absolute;  
+    width: 100vw;
+    margin-top: 20vw;
+    margin-right: 10vw;
+    opacity: 1;
+    z-index: 1;
+    transition: opacity 0.3s ease; 
+}
+#Tree img{
+    max-width: 100%;
+    height: auto;
+}
+
+#hawk{
+    position: absolute;  
+    width: 20vw;
+    margin-top: 81vw;
+    top: 1vw;
+    margin-left: 50vw;
+    z-index: 2; 
+    opacity: 1;
+    transition: opacity 0.3s ease; 
+}
+#hawk img{
+    max-width: 100%;
+    height: auto;
+}
+#Readingswrapper{
+    position: absolute;  
+    width: 15vw;
+    margin-top: 92vw;
+    margin-left: 55vw;
+    z-index: 2; 
+    opacity: 0;
+    border: 2px solid black;
+    transition: opacity 0.3s ease; 
+}
+#readings{
+    position: relative;
+    height:auto;
+    font-size: 2vw;
+}
+#hawk:hover {
+    opacity: 0;
+}
+
+#hawk:hover + #Readingswrapper {
+    opacity: 1;
+}
+@keyframes breeze {
+    0% { transform: rotate(0deg); }
+    50% { transform: rotate(10deg); }
+    100% { transform: rotate(0deg); }
+}
+div[id^="Wildflower"],
+div[id^="Asparagus"],
+div[id^="Ornamental"],
+div[id^="Backyard"],
+div[id^="Buttercup"],
+div[id^="Tulip"],
+div[id^="Violet"],
+div[id^="purple"],
+div[id^="Sub"] {
+    animation: breeze 5s infinite alternate ease-in-out;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+font-family: "Roboto Condensed", sans-serif;
